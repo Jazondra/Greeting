@@ -1,0 +1,28 @@
+phrase = "Hello World!"
+name = "Jazondra"
+age = 23
+print(phrase, "my name is", (name, "and I am", (age)))
+# This is the list of my friends throughout my high school journey. From 2011-2015, I had gained and lost friends.
+phrases = "My friends throughout high school were"
+Years = [2011, 2012, 2013, 2014, 2015]
+friends = ["Summer", "Tashana", "Marva", "Karl", "Stephanie", "John", "Kaley", "Ceandre " "and ", "Alanna"]
+print(phrases)
+print(Years[0])
+print(friends)
+
+print(Years[1])
+friends.append("Maleah")
+friends.remove("Tashana")
+print(friends)
+
+print(Years[2])
+friends.remove("Marva")
+friends.append("Ra'anna")
+print(friends)
+print(Years[3])
+del friends[2:5]
+print(friends)
+
+print(Years[4])
+del friends[2:4]
+print(friends)
